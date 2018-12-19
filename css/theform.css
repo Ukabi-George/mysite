@@ -1,0 +1,46 @@
+body{
+    background-color: pink;
+
+}
+div{
+    display: flex;
+    color:blueviolet;
+    width: 300px;
+    padding:  10px;
+    background-color: aqua;
+    border-style: solid;
+
+}
+.inputs{
+    border:  solid 1px red;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.text{
+border-color:gold;
+border-radius:50px;
+width: 100px;
+padding: 2px;
+}
+.submit-button{
+    color: aqua;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+}
+#menu{
+    display:flex;
+    justify-content: center; 
+}
+#menu #sub-menu{
+    display: flex;
+    color: aliceblue;
+align-content: space-between;
+}
+.active{
+color: brown;
+background-color: green;
+border: solid 1px red;
+padding: 5px; 
+}

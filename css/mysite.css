@@ -1,0 +1,239 @@
+body{
+    background-color: wheat;
+    color: brown;
+}
+  nav div{ 
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: darksalmon;
+    margin-right: 10px;
+    color: antiquewhite;
+    position: fixed;
+    z-index: 2;
+
+    
+}
+nav#main-content li:hover{
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+}
+@keyframes blink { 
+from{  background-color: blueviolet;
+
+}
+to{
+    background-color:red;
+}
+
+    
+}
+.active-link{
+    border-bottom-style: groove;
+    border-bottom-color: red;
+    border-block-end-width: 5px;
+}
+nav div li{
+    margin: 10px;
+    list-style-type: none;
+}
+section#layer2{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    color: blue;
+}
+section#layer3{
+    display: flex;
+}
+section#layer3 div{
+    height: 250px;
+}
+
+section#layer3 div#first{
+    background-color: cyan;
+    width: 50%;
+    margin: 0;
+    border: 0;
+    color: white;
+   
+
+}
+section#layer3 div#first{
+    animation-name: fast;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: reverse;
+}
+@keyframes fast { 
+from{  background-color: blueviolet;
+
+}
+to{
+    background-color: aqua;
+}
+}
+section#layer3 div#second{
+    background-color: darkcyan;
+    width: 25%;
+    margin: 0;
+    border: 0;
+
+}
+section#layer3 div#third{
+    background-color:goldenrod;
+    width: 25%;
+    margin: 0;
+    border: 0;
+}
+div#layer4{
+    background-color: darksalmon;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100px;
+}
+section#grid hr{
+    border: solid 4px darkblue;
+}
+.text-center{
+    text-align: center;
+}
+#grid-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    display: inline-block;
+    height: 360px;
+    width: 260%;
+    border-radius: 25px;
+    background-color: aqua;
+    overflow: hidden;
+}
+.card-body{
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+
+}
+.card.card-body p{
+    font-size: 15px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+    .card.card-body h4{
+        font-size: 21px;
+        color: #333333;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .card.card-body button{
+        border: solid 1px skyblue;
+        background-color: transparent;
+        border-radius: 5px;
+        margin-right: 15px;
+    }
+
+.card img{
+    display: block;
+    height: 150px;
+    border: solid 2px black;
+    background-color: cadetblue;
+    width: 260px;
+}
+#grid-wrapper{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-start;
+}
+.card2{
+    display: inline-block;
+    height: 360px;
+    width: 260%;
+    border-radius: 25px;
+    background-color: aqua;
+    overflow: hidden;
+
+}
+.card2 img{
+    display: block;
+    height: 150px;
+    border: solid 2px black;
+    background-color: cadetblue;
+    width: 260px;
+}
+footer{
+    background-color: darkgrey;
+}
+section#footer{
+    display: flex;
+    justify-content: space-around;
+}
+section#footer li{
+    display: block;
+}
+section#footer2 div p{
+    text-align: center;
+}
+#first img{display: block;
+    height: 150px;
+    border: solid 2px black;
+    background-color: cadetblue;
+    width: 260px;
+
+}
+
+#second img{display: block;
+    height: 150px;
+    border: solid 2px black;
+    background-color: cadetblue;
+    width: 260px;
+
+}
+#third img{display: block;
+    height: 150px;
+    border: solid 2px black;
+    background-color: cadetblue;
+    width: 260px;
+
+}
+#first #IMG{
+    float: right;
+
+}
+button{
+    
+        background-color: green;
+        color: white;
+    }
+    button:hover {
+        background-color: blue;
+    
+}
+video{
+    width: 85%;
+    height: auto;
+}
+#assets{display: block;
+    height: 150px;
+    
+    background-color: wheat;
+    width: 260px;
+
+
+}
+#gallery{
+    display: block;
+    height: 150px;
+   
+    background-color: wheat;
+    width: 100%;
+}

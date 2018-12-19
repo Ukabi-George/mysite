@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>splendor organisation </title>
+    <link rel="stylesheet" href="file:///C:/Users/UKABI%20GEORGE/Desktop/PROJECT 1/css/theform.css">
+    <meta charsets="UTF">
+</head>
+
+<body>
+    <section>
+        <h1> WELCOME TO SLENDOUR BUSINESS LINK; </h1>
+
+    </section>
+    <section id="menu">
+        <section id="sub-menu">
+            <div class="active"> ABOUT US</div>
+            <div class="active">CONTACT US</div>
+            <div class="active">HOME</div>
+        </section>
+    </section>
+    <section>
+        <div>
+            <form method="POST" action="ukabi.php">
+                <h1>
+                    sign up here
+                </h1>
+                <h6>fill this form for employment</h6>
+                <label>full name</label>
+                <input type="text" name="full_name" class="text">
+                <label>email address</label>
+                <input type="email" name="email" class="inputs" required>
+                <label> password</label><input type="password" required>
+                <label>Gender</label> <input type="radio" name="gender" input class="inputs" required>male
+                <input type="radio" name="gender">female
+                <label>choose your field</label><input type="checkbox" name="agreed"> administration<br>
+                <input type="checkbox" name="agreed"> engineering <br>
+                <input type="checkbox" name="agreed"> web development <br>
+                <input type="checkbox" name="agreed"> sales<br>
+                <label>date of birth</label>
+                <input type="date" name="dob" class="inputs">
+
+
+                <br><label>state of origin</label>
+                <select id="sclt1" name="sclt1" onchange="populate(this.id,'sclt2')">
+                    <option value=""> </option>
+                    <option value="abia">ABIA </option>
+                    <option value="adamawa">ADAMAWA </option>
+                    <option value="akwaibom">AKWAIBOM </option>
+                </select><br>
+                <br><label>local government</label>
+                <select id="sclt2" name="sclt2"></select>
+                <input type="submit" value="sign up" input class="submit-button">
+            </form>
+
+        </div>
+
+        <script src="js/mysite.js"></script>
+</body>
+
+</html>
